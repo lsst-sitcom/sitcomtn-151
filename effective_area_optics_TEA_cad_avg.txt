@@ -1,4 +1,4 @@
-Rubin effective area estimate per band, per field within FoV
+Rubin effective area estimate (units m^2) per band, and field position within FoV
 For inquiries: gabriele.rodeghiero@inaf.it
 	
 			0°		0.194°			0.389°			0.583°				0.778°			0.972°			1.167°			1.361°			1.556°			1.75°				
