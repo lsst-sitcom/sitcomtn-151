@@ -12,6 +12,8 @@ SITCOMTN-151
 
 This technique reports an estimate of the Rubin SST telescope’s effective area. This figure of merit accounts for the measured reflectance of the telescope mirrors and the transmission profiles of the LSSTCam optics. In addition, it accounts for the detector quantum efficiency and the pupil obstruction factors coming from the telescope mechanics.
 
+The file ``effective_area_optics_TEA_cad_avg.txt`` contains the tabulated values of the estimated Rubin effective area reported in the technote.
+
 Links
 =====
 
