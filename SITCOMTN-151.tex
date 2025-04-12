@@ -43,7 +43,7 @@ This tech-note reports an estimate of the Rubin SST telescope's effective area. 
 % Fields: VERSION, DATE, DESCRIPTION, OWNER NAME.
 % See LPM-51 for version number policy.
 \setDocChangeRecord{%
-  \addtohist{1}{2025-03-17}{Unreleased.}{Gabriele Rodeghiero}
+  \addtohist{1}{2025-04-14}{Released.}{Gabriele Rodeghiero}
 }
 
 
@@ -156,7 +156,7 @@ The estimation of the Rubin effective area for different positions within the Fi
 
 
 
-The effective area values for different filters and field positions in the FoV are tabulated in Table \ref{eff_table} and available in the \cite{sitcom} folder. 
+The effective area values for different filters and field positions in the FoV are tabulated in Table \ref{eff_table} and available in the \cite{sitcom} folder. The values are determined as the average effective area over five MonteCarlo simulations with the RMS as statistical uncertainty.  
 
 
 \begin{table*}
@@ -165,37 +165,23 @@ The effective area values for different filters and field positions in the FoV a
 
 Off-axis field & $REA_u$ & $REA_g$ & $REA_r$ & $REA_i$ & $REA_z$ & $REA_y$\\
 \hline
-0$^\circ$ & 3.18 $\pm$ 0.10 & 18.36 $\pm$ 0.14 & 22.71 $\pm$ 0.04 & 21.41 $\pm$  0.1 & 22.04 $\pm$  0.04 & 20.47 $\pm$ 0.09 \\
-0.19$^\circ$ & 3.14 $\pm$  0.07 & 18.40 $\pm$  0.12 & 22.64 $\pm$  0.04 & 21.43 $\pm$ 0.13 & 22.03 $\pm$ 0.03 & 20.48  $\pm$ 0.07 \\
-0.39$^\circ$ & 3.12 $\pm$  0.03 & 18.22 $\pm$  0.20 & 22.59 $\pm$  0.06 & 21.34 $\pm$  0.04 & 21.96 $\pm$ 0.06 & 20.41 $\pm$  0.06 \\
-0.58$^\circ$ & 3.11 $\pm$ 0.05 & 18.38 $\pm$  0.11 & 22.47 $\pm$  0.06 & 21.22 $\pm$ 0.14 & 21.84 $\pm$ 0.06 & 20.28  $\pm$  0.09 \\
-0.78$^\circ$ & 3.14 $\pm$  0.09 & 18.34 $\pm$  0.30 &22.43  $\pm$  0.04 & 21.26 $\pm$  0.12 & 21.82 $\pm$ 0.05 & 20.24 $\pm$  0.09 \\
-0.97$^\circ$ & 3.14 $\pm$  0.14 & 17.92 $\pm$  0.16 & 22.20 $\pm$  0.05 & 20.99 $\pm$  0.12 & 21.56 $\pm$ 0.01& 20.00  $\pm$  0.06 \\
-1.17$^\circ$ & 3.06 $\pm$  0.07 & 17.81 $\pm$  0.23 & 22.04 $\pm$  0.04 & 20.87 $\pm$  0.07 & 21.38 $\pm$ 0.05 & 19.84  $\pm$  0.10\\
-1.36$^\circ$ & 2.96 $\pm$  0.04 & 17.86 $\pm$  0.22 & 21.91 $\pm$  0.06 & 20.65 $\pm$  0.08 & 21.28 $\pm$ 0.07 & 19.80  $\pm$  0.10\\
-1.55$^\circ$ & 3.03 $\pm$  0.08 & 17.44 $\pm$  0.05 & 21.44 $\pm$  0.08 & 20.28 $\pm$  0.09 & 20.88 $\pm$ 0.04 & 19.36  $\pm$ 0.05\\
-1.75$^\circ$ & 2.85  $\pm$ 0.05 & 16.43 $\pm$  0.10 & 20.15 $\pm$  0.03 & 19.06 $\pm$  0.06 & 19.57 $\pm$  0.03 & 18.15  $\pm$ 0.06\\
+0$^\circ$ & 9.20 $\pm$ 0.15 & 20.79 $\pm$ 0.05 & 23.16 $\pm$ 0.03 & 23.66 $\pm$  0.01 & 22.14 $\pm$  0.03 & 9.74 $\pm$ 0.06 \\
+0.19$^\circ$ & 9.25 $\pm$  0.09 & 20.70 $\pm$  0.03 & 23.07 $\pm$  0.02 & 23.60 $\pm$ 0.03 & 22.06 $\pm$ 0.06 & 9.72  $\pm$ 0.12 \\
+0.39$^\circ$ & 9.28 $\pm$  0.12 & 20.72 $\pm$  0.05 & 23.05 $\pm$  0.05 & 23.56 $\pm$  0.02 & 22.05 $\pm$ 0.04 & 9.83 $\pm$  0.03 \\
+0.58$^\circ$ & 9.23 $\pm$ 0.14 & 20.59 $\pm$  0.04 & 22.90 $\pm$  0.03 & 23.40 $\pm$ 0.02 & 21.90 $\pm$ 0.09 & 9.76  $\pm$  0.16 \\
+0.78$^\circ$ & 9.29 $\pm$  0.13 & 20.52 $\pm$  0.04 &22.84  $\pm$  0.02 & 23.35 $\pm$  0.02 & 21.90 $\pm$ 0.08 & 9.59 $\pm$  0.07 \\
+0.97$^\circ$ & 9.00 $\pm$  0.09 & 20.36 $\pm$  0.05 & 22.69 $\pm$  0.02 & 23.15 $\pm$  0.02 & 21.69 $\pm$ 0.02 & 9.66  $\pm$  0.12 \\
+1.17$^\circ$ & 9.07 $\pm$  0.11 & 20.27 $\pm$  0.05 & 22.56 $\pm$  0.03 & 23.05 $\pm$  0.02 & 21.58 $\pm$ 0.03 & 9.55  $\pm$  0.10\\
+1.36$^\circ$ & 8.94 $\pm$  0.06 & 20.06 $\pm$  0.04 & 22.33 $\pm$  0.03 & 22.82 $\pm$  0.02 & 21.37 $\pm$ 0.10 & 9.47  $\pm$  0.15\\
+1.55$^\circ$ & 8.86 $\pm$  0.09 & 19.64 $\pm$  0.05 & 21.85 $\pm$  0.01 & 22.34 $\pm$  0.01 & 20.92 $\pm$ 0.03 & 9.2  $\pm$ 0.04\\
+1.75$^\circ$ & 8.41  $\pm$ 0.11 & 18.64 $\pm$  0.02 & 20.73 $\pm$  0.03 & 21.14 $\pm$  0.02 & 19.79 $\pm$  0.03 & 8.76  $\pm$ 0.07\\
+
 
 \hline
 \end{tabular}
 \caption{Rubin estimated effective area $REA$ through the six filters and for different off-axis fields.\label{eff_table} Units are $m^2$.}
  \end{center}
  \end{table*}
-
-
-The real reflectance and transmittance properties of the optics coating and substrates, the QE, and obstruction factors lead to an un-obstructed telescope with an equivalent diameter and collecting area, which is lower than the nominal optical design as shown in Fig. \ref{eq_diameter}. The equivalent diameter has been calculated by the REA, $\diameter$ = $2\sqrt{\frac{REA}{\pi}}$.
-
-
-\begin{figure}
-\begin{center}
-\begin{tabular}{c}
-\includegraphics[height=9cm]{Rubin_equivalent_diameter_TEA_cad}
-\end{tabular}
-\end{center}
-\caption 
-{ \label{eq_diameter} Equivalent diameter of the un-obstructed telescope estimated from the REA calculations reported in Fig. \ref{eff}.}
-\end{figure} 
-
 
 
 
